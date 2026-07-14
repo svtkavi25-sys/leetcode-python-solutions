@@ -3,4 +3,4 @@ class Solution(object):
         squares=list(map(lambda x:x**2,nums))
         squares.sort()
         return squares
-        
+           
