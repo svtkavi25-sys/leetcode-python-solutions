@@ -3,4 +3,7 @@ class Solution(object):
         squares=list(map(lambda x:x**2,nums))
         squares.sort()
         return squares
+<<<<<<< HEAD
            
+=======
+>>>>>>> f81e0dc (Solved LeetCode 283 Move Zeroes)
