@@ -1,0 +1,15 @@
+class Solution(object):
+    def finalPrices(self, prices):
+        new = []
+
+        for i in range(len(prices)):
+            price = prices[i]
+
+            for j in range(i + 1, len(prices)):
+                if prices[j] <= price:
+                    price = price - prices[j]
+                    break
+
+            new.append(price)
+
+        return new
