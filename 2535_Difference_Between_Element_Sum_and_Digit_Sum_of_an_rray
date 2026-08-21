@@ -1,0 +1,13 @@
+class Solution(object):
+    def differenceOfSum(self, nums):
+        sum_of_num=0
+        digit=""
+        digit_sum=0
+        for i in range(len(nums)):
+            sum_of_num+=nums[i]
+        for i in range(len(nums)):
+            digit+=str(nums[i])
+        for i in range(len(digit)):
+            digit_sum+=int(digit[i])
+        return sum_of_num-digit_sum
+        
