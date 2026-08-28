@@ -4,4 +4,3 @@ class Solution(object):
         b1=int(b,2)
         result=a1+b1
         return bin(result)[2:]
-        
