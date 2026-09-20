@@ -1,0 +1,8 @@
+class Solution(object):
+    def removeZeros(self, n):
+        s=str(n)
+        result=""
+        for i in s:
+            if i!="0":
+                result+=i
+        return int(result)
