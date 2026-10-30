@@ -11,4 +11,4 @@ class Solution(object):
         for a, b in zip(p,n):
             result.append(a)
             result.append(b)
-        return result
+        return result 
