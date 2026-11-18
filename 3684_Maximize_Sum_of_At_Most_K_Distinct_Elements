@@ -1,0 +1,5 @@
+class Solution(object):
+    def maxKDistinct(self, nums, k):
+        m=set(nums)
+        n=sorted(list(m),reverse=True)
+        return n[:k]
